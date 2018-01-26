@@ -1,0 +1,150 @@
+body {
+    background: #777;
+}
+
+.background {
+    width: 300px;
+    height: 400px;
+    background: gray;
+    margin: 50px auto;
+}
+
+button {
+    border: 0;
+    color: rgb(8, 0, 0);
+    background-color: rgb(235, 232, 219);
+    font-size: 25px;
+}
+
+#result {
+    display: block;
+    font-family: sans-serif;
+    width: 220px;
+    height: 40px;
+    margin: 10px auto;
+    background-color: white;
+    text-align: right;
+    color: black;
+    border: 0;
+    font-size: 20px;
+    letter-spacing: 3px;
+    position: relative;
+    top: 5px;
+    padding-top: 15px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+
+#result:hover {
+    cursor: text;
+}
+
+#first-rows {
+    margin-bottom: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.rows {
+    width: 300px;
+    margin-top: 10px;
+}
+
+#delete {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.btn-style {
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.first-child {
+    margin-left: 20px;
+}
+
+.num-bg {
+    background: black;
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 5px solid black;
+}
+
+.num-bg:active {
+    background: black;
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: inset 5px 5px 5px red;
+}
+
+.opera-bg {
+    background: rgb(0, 22, 14);
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 5px solid  rgb(0, 22, 14);
+}
+
+.opera-bg:active {
+    background: rgb(0, 22, 14);
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: inset 5px 5px 5px red;
+}
+
+.del-bg {
+    background: rgb(139, 3, 3);
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 5px solid rgb(139, 3, 3);
+}
+
+.del-bg:active {
+    background: rgb(139, 3, 3);
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: inset 5px 5px 5px white;
+}
+
+.eqn-bg {
+    background: rgb(73, 1, 1);
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 5px solid bla  rgb(73, 1, 1);
+}
+
+.eqn-bg:active {
+    background: rgb(73, 1, 1);
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: inset 5px 5px 5px white;
+}
+
+.align {
+    margin-left: 6px !important;
+}
+
+.fall-back {
+    margin-left: 13px !important;
+}
