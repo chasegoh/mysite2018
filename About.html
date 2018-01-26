@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Bootstrap Walkthrough">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript, Bootstrap">
+    <meta name="author" content="Chase">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <Title>
+        My First BootStrap Page
+    </Title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <Link rel="stylesheet" href="./css/MyFirstPage.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Load fontawesome.io -->
+    <script src="https://use.fontawesome.com/201f99b414.js"></script>
+
+    <script>
+        $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip(); 
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <h1>My CR7 Page</h1>
+            <p>Cristiano Ronaldo</p>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Fansite</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li class="active">
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="#">Links</a>
+                </li>
+            </ul>
+            <div id="navbar" class="navbar-collapse collapse">
+                <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" placeholder="search" class="form-control">
+                        <button type="submit" class="btn btn-default">Search</button>
+                    </div>
+                </form>
+    </nav>
+
+    <div class="container-fluid">
+        <div class=row>
+            <div class="col-xs-12 col-sm-12 text-center">
+                <h1>About Myself</h1>
+                <hr>
+                <p><em>Howdy and Welcome.</em>
+                    Cristiano Ronaldo dos Santos Aveiro GOIH, ComM (Portuguese pronunciation: [kɾiʃˈtjɐnu ʁoˈnaldu]; born 5 February 1985) is a Portuguese professional footballer who plays as a forward for Spanish club Real Madrid and the Portugal national team. Often considered the best player in the world and widely regarded as one of the greatest of all time,[note 1] Ronaldo has five Ballon d'Or awards,[note 2] the most for a European player and is tied for most all-time. He is the first player in history to win four European Golden Shoes. He has won 25 trophies in his career, including five league titles, four UEFA Champions League titles and one UEFA European Championship. A prolific goalscorer, Ronaldo holds the records for most official goals scored in the top five European leagues (375), the UEFA Champions League (114), the UEFA European Championship (29) and the FIFA Club World Cup (7), as well as most goals scored in a UEFA Champions League season (17). He has scored more than 600 senior career goals for club and country.
+                </p>
+            </div>
+        </div>
+    </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2sJKHj2YVHc" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="container fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Current Soccer Club</h2>
+                    <p>
+                        Real Madrid
+                    </p>
+                    <p>
+                        <a href="https://www.realmadrid.com/en" class="btn btn-default" role="button">View Details &raquo;</a>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Previous Clubs</h2>
+                    <p>
+                        Sporting CP, Manchester United
+                    </p>
+                    <p>
+                        <a href="https://en.wikipedia.org/wiki/Sporting_CP" class="btn btn-default" role="button">View Details &raquo;</a>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Carrer Stats</h2>
+                    <p>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>App</th>
+                                    <th>Goals</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        503
+                                    </td>
+                                    <td>
+                                        378
+                                    </td>
+                            </tbody>
+                        </table>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+            <footer>
+                Copyright &copy; 2018 CG Pte Ltd
+            </footer>
+
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+footer {
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin: 15px;
+}
+
+*:focus {
+    outline: none;
+}
+
+/* form typograph */
+
+.contact_form ul {
+    width: 100%;
+    list-style-type: none;
+    list-style-position: absolute;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact_form li {
+    padding: 20px;
+    border-bottom: 1px solid #fff;
+    position: relative;
+}
+
+.contact_form h2 {
+    margin: 0;
+    display: inline;
+}
+
+.notification {
+    color: red;
+    margin: 5px 0 0 0;
+    display: inline;
+    float: right;
+}
+
+.contact_form label {
+        width: 150px;
+        font-weight: bold;
+        margin-top: 5px;
+        display: inline-block;
+        float: left;
+        padding: 3px;
+}
+
+.contact_form input {
+    height: 30px;
+    width: 200px;
+    padding: 10px 10px;
+}
+
+.contact_form textarea {
+        width: 300px;
+        padding: 1px;
+}
+
+.contact_form button {
+    margin-left: 200px;
+}
+
+.contact_form input, .contact_form textarea {
+    border: 1px solid grey;
+    border-radius: 2px;
+    -moz-transition: padding .25s;
+    -webkit-transition: padding .25s;
+    -o-transition: padding .25s;
+    transition: padding .25s;
+}
+
+.contact_form input:focus, .contact_form textarea:focus {
+    background-color: #ffffff;
+    border: 1px solid #555555;
+    box-shadow: 0 0 3px #aaaaaa;
+    padding-right: 75px;
+}
+
+.contact_form input:required, .contact_form textarea:required {
+    background: #ffffff url('../images/red_asterisk.png') no-repeat 98% center;
+}
+
+.contact_form input:focus:invalid, .contact_form textarea:focus:invalid {
+    background: #ffffff url('../images/invalid.png') no-repeat 98% center;
+    box-shadow: 0 0 5px rgb(117, 5, 5);
+    border-color: #b45252;
+}
+
+.contact_form input:focus:valid, .contact_form textarea:focus:valid {
+    background: #ffffff url('../images/valid.png') no-repeat 98% center;
+    box-shadow: 0 0 5px rgb(142, 240, 51);
+    border-color: #228d46;
+}
+
+.form_hint {
+    background: #dd4422;
+    border-radius: 3px 3px 3px 3px;
+    color: #fff;
+    margin-left: 10px;
+    padding: 1px 6px;
+    position: relative;
+    left: -5px
+}
+
+.form_hint ::before {
+    content: "\25C0";
+    color: #b45252;
+    position: absolute;
+    left: -5px;
+}
+
+.contact_form input:focus + .form_hint {
+    display: inline;
+}
+
+.contact_form input:required:valid + .form_hint {
+    background-color: #228d46;
+}
+
+.contact_form input:required:valid + .form_hint::before {
+    color: #228d46;
+}
+
+button.submit {
+    background-color: white;
+    border: 2px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 3px;
+    font-weight: bold;
+    text-align: center;
+    padding: 6pz 20px;
+}
+
+button.submit:hover {
+    opacity: 55;
+    cursor: pointer;
+}
+
+button.submit:active {
+    border: 5px solid red;
+}
+
